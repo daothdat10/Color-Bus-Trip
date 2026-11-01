@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71242e60cf25425ba7c34428a1dce5a9, type: 3}
+  m_Name: RoadThemeMaterials
+  m_EditorClassIdentifier: 
+  groundTown: {fileID: 2100000, guid: 01c20762969733e4981c77204d467140, type: 2}
+  roadTown: {fileID: 2100000, guid: fa25af47344fa784b87d2569fadf129e, type: 2}
+  groundWinter: {fileID: 2100000, guid: 0910b61d8977fd34db4e1ebbbbc9f205, type: 2}
+  roadWinter: {fileID: 2100000, guid: 2121972834de6fe419787770648b402a, type: 2}
+  groundDesert: {fileID: 2100000, guid: 122e4b3aafbfde640a2e3cc6d2208266, type: 2}
+  roadDesert: {fileID: 2100000, guid: 8ae7b4d5f62bbf241b7c041374d0a545, type: 2}
+  groundEgypt: {fileID: 2100000, guid: d04dbf7cb1fee61448814663ea204b36, type: 2}
+  roadEgypt: {fileID: 2100000, guid: f4d83f5c67c135a42a6955ea0d7cf674, type: 2}
+  groundForest: {fileID: 2100000, guid: 0fc761b904ce84045a7837949d1ff6fa, type: 2}
+  roadForest: {fileID: 2100000, guid: 84a1858cb4d157742bd78f29c0104ed0, type: 2}
+  groundGraveyard: {fileID: 2100000, guid: 15603adf763675046858259376e7d028, type: 2}
+  roadGraveyard: {fileID: 2100000, guid: e647ee1dafe0fab4cbb5e30c287c16a2, type: 2}
+  groundJapaneseGarden: {fileID: 2100000, guid: bf97979674d3f2347a101777ae3169a7, type: 2}
+  roadJapaneseGarden: {fileID: 2100000, guid: 802fa92036a1a8a429379f08076e65ee, type: 2}

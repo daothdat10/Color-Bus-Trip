@@ -1,0 +1,1240 @@
+{
+  "level": {
+    "id": "yigit_1768399438_bspline",
+    "boardData": {
+      "items": [
+        {
+          "type": "Conveyor",
+          "typeId": 6,
+          "data": {
+            "positionsColl": [
+              {
+                "x": -0.7561193108558655,
+                "y": -2.0177247524261475,
+                "z": 0.0
+              },
+              {
+                "x": -0.6878578066825867,
+                "y": -1.1894824504852295,
+                "z": -7.440866767183252e-08
+              },
+              {
+                "x": -0.7441022396087646,
+                "y": -0.5956917405128479,
+                "z": -1.0036407616098586e-07
+              },
+              {
+                "x": -0.5679070353507996,
+                "y": -0.28311973810195923,
+                "z": -0.00015636402531526983
+              },
+              {
+                "x": -0.14560696482658386,
+                "y": -0.2743852734565735,
+                "z": 0.019550789147615433
+              },
+              {
+                "x": 0.4237327575683594,
+                "y": -0.09876829385757446,
+                "z": 0.02001953125
+              },
+              {
+                "x": 1.1694930791854858,
+                "y": -0.23824435472488403,
+                "z": -1.1598859828154673e-07
+              },
+              {
+                "x": 1.549430251121521,
+                "y": -0.5193384289741516,
+                "z": -1.037015877614067e-07
+              },
+              {
+                "x": 1.5601478815078735,
+                "y": -0.9088007807731628,
+                "z": -8.667764461733896e-08
+              },
+              {
+                "x": 1.3053916692733765,
+                "y": -1.3356151580810547,
+                "z": -6.802099505875958e-08
+              },
+              {
+                "x": 0.6543145775794983,
+                "y": -1.8372713327407837,
+                "z": -0.001220703125
+              },
+              {
+                "x": -0.09230309724807739,
+                "y": -1.7325173616409302,
+                "z": -6.548524567051572e-08
+              },
+              {
+                "x": -0.23985989391803741,
+                "y": -0.8284211754798889,
+                "z": -0.00015634018927812576
+              },
+              {
+                "x": 0.13337911665439606,
+                "y": -0.6625977158546448,
+                "z": -0.0006250974256545305
+              },
+              {
+                "x": 0.6733826398849487,
+                "y": -0.6186061501502991,
+                "z": -0.00015634935698471963
+              },
+              {
+                "x": 0.7768871188163757,
+                "y": -1.4245729446411133,
+                "z": -6.413253572645772e-08
+              },
+              {
+                "x": 0.756740927696228,
+                "y": -2.0177242755889893,
+                "z": 0.0
+              }
+            ],
+            "tanInsColl": [
+              {
+                "x": -6.794929504394531e-06,
+                "y": -0.13478732109069824,
+                "z": 0.011938273906707764
+              },
+              {
+                "x": 0.007126569747924805,
+                "y": -0.22550463676452637,
+                "z": 9.857124894097069e-09
+              },
+              {
+                "x": -0.004769444465637207,
+                "y": -0.15566039085388184,
+                "z": 6.804128815929289e-09
+              },
+              {
+                "x": -0.10799956321716309,
+                "y": -0.058217525482177734,
+                "z": 0.0001562525430927053
+              },
+              {
+                "x": -0.16192153096199036,
+                "y": -0.06952857971191406,
+                "z": 3.725290298461914e-09
+              },
+              {
+                "x": -0.2361479550600052,
+                "y": 0.015227794647216797,
+                "z": -0.00015624985098838806
+              },
+              {
+                "x": -0.20839256048202515,
+                "y": 0.10922908782958984,
+                "z": -4.774562967213569e-09
+              },
+              {
+                "x": -0.055785298347473145,
+                "y": 0.1051788330078125,
+                "z": -4.5975099283168674e-09
+              },
+              {
+                "x": 0.04087817668914795,
+                "y": 0.14061152935028076,
+                "z": -6.146329667444661e-09
+              },
+              {
+                "x": 0.13631010055541992,
+                "y": 0.1486515998840332,
+                "z": -6.497771209978964e-09
+              },
+              {
+                "x": 0.2772834897041321,
+                "y": 0.023642301559448242,
+                "z": -9.313225746154785e-10
+              },
+              {
+                "x": 0.18051648139953613,
+                "y": -0.18520963191986084,
+                "z": 8.095767611848714e-09
+              },
+              {
+                "x": -0.06274355947971344,
+                "y": -0.12204396724700928,
+                "z": 0.00015625533706042916
+              },
+              {
+                "x": -0.1834900826215744,
+                "y": -0.057642221450805664,
+                "z": 2.5029294192790985e-09
+              },
+              {
+                "x": -0.1165386438369751,
+                "y": 0.14279890060424805,
+                "z": -0.00015625625383108854
+              },
+              {
+                "x": 0.006136476993560791,
+                "y": 0.24842119216918945,
+                "z": -1.0858833832116943e-08
+              },
+              {
+                "x": -2.980232238769531e-07,
+                "y": 0.1623995304107666,
+                "z": 6.660819053649902e-06
+              }
+            ],
+            "tanOutsColl": [
+              {
+                "x": 6.794929504394531e-06,
+                "y": 0.1347874402999878,
+                "z": -0.011938273906707764
+              },
+              {
+                "x": -0.007126510143280029,
+                "y": 0.22550463676452637,
+                "z": -9.857117788669711e-09
+              },
+              {
+                "x": 0.004769444465637207,
+                "y": 0.15566039085388184,
+                "z": -6.8041359213566466e-09
+              },
+              {
+                "x": 0.10799950361251831,
+                "y": 0.05821800231933594,
+                "z": -0.00015625252854079008
+              },
+              {
+                "x": 0.16192154586315155,
+                "y": 0.06952857971191406,
+                "z": -3.725290298461914e-09
+              },
+              {
+                "x": 0.236147940158844,
+                "y": -0.015227556228637695,
+                "z": 0.00015624985098838806
+              },
+              {
+                "x": 0.20839262008666992,
+                "y": -0.10922932624816895,
+                "z": 4.774562967213569e-09
+              },
+              {
+                "x": 0.055785179138183594,
+                "y": -0.1051790714263916,
+                "z": 4.597524139171583e-09
+              },
+              {
+                "x": -0.0408782958984375,
+                "y": -0.140611469745636,
+                "z": 6.146315456589946e-09
+              },
+              {
+                "x": -0.13631010055541992,
+                "y": -0.14865148067474365,
+                "z": 6.4977641045516066e-09
+              },
+              {
+                "x": -0.27728360891342163,
+                "y": -0.023642301559448242,
+                "z": 1.0477378964424133e-09
+              },
+              {
+                "x": -0.18051648139953613,
+                "y": 0.1852097511291504,
+                "z": -8.095774717276072e-09
+              },
+              {
+                "x": 0.06274354457855225,
+                "y": 0.12204408645629883,
+                "z": -0.00015625532250851393
+              },
+              {
+                "x": 0.1834900826215744,
+                "y": 0.057642459869384766,
+                "z": -2.5029294192790985e-09
+              },
+              {
+                "x": 0.11653858423233032,
+                "y": -0.14279913902282715,
+                "z": 0.00015625623927917331
+              },
+              {
+                "x": -0.006136476993560791,
+                "y": -0.2484210729598999,
+                "z": 1.0858833832116943e-08
+              },
+              {
+                "x": 1.1920928955078125e-07,
+                "y": -0.07379794120788574,
+                "z": -3.032386302947998e-06
+              }
+            ],
+            "sizesColl": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "Portal",
+          "typeId": 2,
+          "data": {
+            "position": {
+              "x": 0.7340202331542969,
+              "y": -0.16875308752059937
+            },
+            "rotation": 111.68657684326172,
+            "splineDirectionData": 0,
+            "splineProgressData": 0.3331860899925232
+          }
+        },
+        {
+          "type": "Portal",
+          "typeId": 2,
+          "data": {
+            "position": {
+              "x": 0.5132511258125305,
+              "y": -1.7617034912109375
+            },
+            "rotation": 272.5599060058594,
+            "splineDirectionData": 0,
+            "splineProgressData": 0.6217857003211975
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 0,
+            "row": 0,
+            "passengerType": 3,
+            "passengerTypes": [
+              3,
+              8,
+              2
+            ],
+            "passengerTypesCounts": [
+              4,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 0,
+            "row": 1,
+            "passengerType": 6,
+            "passengerTypes": [
+              1,
+              5,
+              6
+            ],
+            "passengerTypesCounts": [
+              4,
+              4,
+              8
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 0,
+            "row": 2,
+            "passengerType": 5,
+            "passengerTypes": [
+              8
+            ],
+            "passengerTypesCounts": [
+              8
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": true,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 0,
+            "row": 3,
+            "passengerType": 6,
+            "passengerTypes": [
+              3,
+              2
+            ],
+            "passengerTypesCounts": [
+              8,
+              8
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 0,
+            "row": 4,
+            "passengerType": 3,
+            "passengerTypes": [
+              3,
+              4,
+              8
+            ],
+            "passengerTypesCounts": [
+              4,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 0,
+            "row": 5,
+            "passengerType": 8,
+            "passengerTypes": [
+              4,
+              8,
+              5
+            ],
+            "passengerTypesCounts": [
+              4,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 1,
+            "row": 0,
+            "passengerType": 4,
+            "passengerTypes": [
+              8,
+              2
+            ],
+            "passengerTypesCounts": [
+              8,
+              8
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 1,
+            "row": 1,
+            "passengerType": 8,
+            "passengerTypes": [
+              7,
+              4,
+              8
+            ],
+            "passengerTypesCounts": [
+              4,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 1,
+            "row": 2,
+            "passengerType": 6,
+            "passengerTypes": [
+              7,
+              8
+            ],
+            "passengerTypesCounts": [
+              8,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 1,
+            "row": 3,
+            "passengerType": 3,
+            "passengerTypes": [
+              4,
+              8,
+              2,
+              6
+            ],
+            "passengerTypesCounts": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 1,
+            "row": 4,
+            "passengerType": 5,
+            "passengerTypes": [
+              1,
+              5,
+              2
+            ],
+            "passengerTypesCounts": [
+              4,
+              8,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 1,
+            "row": 5,
+            "passengerType": 6,
+            "passengerTypes": [
+              3,
+              4,
+              6
+            ],
+            "passengerTypesCounts": [
+              4,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 2,
+            "row": 0,
+            "passengerType": 2,
+            "passengerTypes": [
+              8,
+              5,
+              2
+            ],
+            "passengerTypesCounts": [
+              8,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 2,
+            "row": 1,
+            "passengerType": 7,
+            "passengerTypes": [
+              3,
+              8,
+              5,
+              6
+            ],
+            "passengerTypesCounts": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 2,
+            "row": 2,
+            "passengerType": 8,
+            "passengerTypes": [
+              1,
+              8,
+              2
+            ],
+            "passengerTypesCounts": [
+              8,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 2,
+            "row": 3,
+            "passengerType": 2,
+            "passengerTypes": [
+              3,
+              8,
+              2
+            ],
+            "passengerTypesCounts": [
+              4,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 2,
+            "row": 4,
+            "passengerType": 1,
+            "passengerTypes": [
+              7,
+              3,
+              5
+            ],
+            "passengerTypesCounts": [
+              4,
+              8,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 3,
+            "row": 0,
+            "passengerType": 1,
+            "passengerTypes": [
+              4,
+              6
+            ],
+            "passengerTypesCounts": [
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 3,
+            "row": 1,
+            "passengerType": 2,
+            "passengerTypes": [
+              3,
+              5
+            ],
+            "passengerTypesCounts": [
+              8,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 3,
+            "row": 2,
+            "passengerType": 8,
+            "passengerTypes": [
+              7,
+              4,
+              8,
+              2
+            ],
+            "passengerTypesCounts": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 3,
+            "row": 3,
+            "passengerType": 7,
+            "passengerTypes": [
+              7,
+              2,
+              6
+            ],
+            "passengerTypesCounts": [
+              4,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 3,
+            "row": 4,
+            "passengerType": 4,
+            "passengerTypes": [
+              3,
+              4,
+              6
+            ],
+            "passengerTypesCounts": [
+              4,
+              4,
+              4
+            ],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Stop",
+          "typeId": 4,
+          "data": {
+            "position": {
+              "x": -0.4117332994937897,
+              "y": -1.7750113010406494
+            },
+            "rotation": -42.58347702026367,
+            "passengerTypes": [
+              0
+            ],
+            "passengerTypesCounts": [
+              0
+            ],
+            "hasLock": false,
+            "lockId": 1,
+            "idDataId": 1,
+            "splineDirectionData": 0,
+            "splineProgressData": 0.027461113408207893,
+            "passengerStopPosition": {
+              "x": -0.46341952681541443,
+              "y": -1.8613461256027222,
+              "z": -0.08680006116628647
+            },
+            "stopCounterValue": 0,
+            "isVIPStop": false,
+            "vipStopPassengerTypes": [],
+            "vipStopPassengerTypesCounts": []
+          }
+        },
+        {
+          "type": "Stop",
+          "typeId": 4,
+          "data": {
+            "position": {
+              "x": -0.4459635317325592,
+              "y": -0.7851366996765137
+            },
+            "rotation": -34.6727294921875,
+            "passengerTypes": [
+              0
+            ],
+            "passengerTypesCounts": [
+              0
+            ],
+            "hasLock": false,
+            "lockId": 2,
+            "idDataId": 2,
+            "splineDirectionData": 0,
+            "splineProgressData": 0.13357628881931305,
+            "passengerStopPosition": {
+              "x": -0.4862528443336487,
+              "y": -0.8949825763702393,
+              "z": -0.08680009096860886
+            },
+            "stopCounterValue": 0,
+            "isVIPStop": false,
+            "vipStopPassengerTypes": [],
+            "vipStopPassengerTypesCounts": []
+          }
+        },
+        {
+          "type": "Stop",
+          "typeId": 4,
+          "data": {
+            "position": {
+              "x": 0.10159865021705627,
+              "y": -1.1382012367248535
+            },
+            "rotation": -35.316104888916016,
+            "passengerTypes": [
+              0
+            ],
+            "passengerTypesCounts": [
+              0
+            ],
+            "hasLock": false,
+            "lockId": 4,
+            "idDataId": 4,
+            "splineDirectionData": 0,
+            "splineProgressData": 0.6964529752731323,
+            "passengerStopPosition": {
+              "x": 0.1216759979724884,
+              "y": -1.2858091592788696,
+              "z": -0.08680012077093124
+            },
+            "stopCounterValue": 0,
+            "isVIPStop": false,
+            "vipStopPassengerTypes": [],
+            "vipStopPassengerTypesCounts": []
+          }
+        },
+        {
+          "type": "Stop",
+          "typeId": 4,
+          "data": {
+            "position": {
+              "x": 0.2672184705734253,
+              "y": -0.47139984369277954
+            },
+            "rotation": 277.0539855957031,
+            "passengerTypes": [
+              0
+            ],
+            "passengerTypesCounts": [
+              0
+            ],
+            "hasLock": true,
+            "lockId": 3,
+            "idDataId": 3,
+            "splineDirectionData": 0,
+            "splineProgressData": 0.2556464672088623,
+            "passengerStopPosition": {
+              "x": 0.0652199387550354,
+              "y": -0.5427303314208984,
+              "z": -0.08736149966716766
+            },
+            "stopCounterValue": 0,
+            "isVIPStop": false,
+            "vipStopPassengerTypes": [],
+            "vipStopPassengerTypesCounts": []
+          }
+        },
+        {
+          "type": "Stop",
+          "typeId": 4,
+          "data": {
+            "position": {
+              "x": 0.3340074419975281,
+              "y": -0.9395536780357361
+            },
+            "rotation": -344.6806335449219,
+            "passengerTypes": [
+              0,
+              0
+            ],
+            "passengerTypesCounts": [
+              0,
+              0
+            ],
+            "hasLock": false,
+            "lockId": 0,
+            "idDataId": 0,
+            "splineDirectionData": 0,
+            "splineProgressData": 0.8483964204788208,
+            "passengerStopPosition": {
+              "x": 0.3774945139884949,
+              "y": -1.0538592338562012,
+              "z": -0.08700918406248093
+            },
+            "stopCounterValue": 0,
+            "isVIPStop": false,
+            "vipStopPassengerTypes": [],
+            "vipStopPassengerTypesCounts": []
+          }
+        },
+        {
+          "type": "PassengerGenerator",
+          "typeId": 5,
+          "data": {
+            "position": {
+              "x": -0.2094116359949112,
+              "y": -0.5372000932693481
+            },
+            "rotation": 140.50942993164062,
+            "passengerTypes": [
+              1,
+              7,
+              6
+            ],
+            "passengerTypesCounts": [
+              8,
+              4,
+              16
+            ],
+            "idDataId": 2
+          }
+        },
+        {
+          "type": "PassengerGenerator",
+          "typeId": 5,
+          "data": {
+            "position": {
+              "x": 0.3523047864437103,
+              "y": -1.3252520561218262
+            },
+            "rotation": 75.98880767822266,
+            "passengerTypes": [
+              6,
+              1,
+              7
+            ],
+            "passengerTypesCounts": [
+              16,
+              8,
+              4
+            ],
+            "idDataId": 4
+          }
+        }
+      ]
+    }
+  }
+}

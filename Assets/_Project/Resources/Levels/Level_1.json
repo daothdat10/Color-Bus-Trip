@@ -1,0 +1,199 @@
+{
+  "level": {
+    "id": "Level_01_Converted",
+    "boardData": {
+      "items": [
+        {
+          "type": "Conveyor",
+          "typeId": 6,
+          "data": {
+            "positionsColl": [
+              {
+                "x": -0.7599999904632568,
+                "y": -2.0,
+                "z": -1.165084171361741e-07
+              },
+              {
+                "x": -0.5199788212776184,
+                "y": -1.0949463844299316,
+                "z": -1.762738247634843e-05
+              },
+              {
+                "x": 0.4804156422615051,
+                "y": -1.1094245910644531,
+                "z": -1.7626749468035996e-05
+              },
+              {
+                "x": 0.7625144720077515,
+                "y": -2.0281736850738525,
+                "z": -3.898296796478462e-08
+              }
+            ],
+            "tanInsColl": [
+              {
+                "x": -0.0031667351722717285,
+                "y": -0.24320363998413086,
+                "z": 0.00407562917098403
+              },
+              {
+                "x": -0.24722057580947876,
+                "y": -0.1611499786376953,
+                "z": 3.516565811878536e-06
+              },
+              {
+                "x": -0.25513315200805664,
+                "y": 0.1659759283065796,
+                "z": -3.516777724144049e-06
+              },
+              {
+                "x": 0.0011520981788635254,
+                "y": 0.03128528594970703,
+                "z": -0.0019915855955332518
+              }
+            ],
+            "tanOutsColl": [
+              {
+                "x": 0.003135085105895996,
+                "y": 0.24077308177947998,
+                "z": -0.004034899640828371
+              },
+              {
+                "x": 0.24722057580947876,
+                "y": 0.16114985942840576,
+                "z": -3.5165667213732377e-06
+              },
+              {
+                "x": 0.25513315200805664,
+                "y": -0.1659759283065796,
+                "z": 3.5167768146493472e-06
+              },
+              {
+                "x": -0.0011520981788635254,
+                "y": -0.03128534555435181,
+                "z": 0.001991585362702608
+              }
+            ],
+            "sizesColl": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "Stop",
+          "typeId": 4,
+          "data": {
+            "position": {
+              "x": 0.4164167642593384,
+              "y": -1.3646552562713623
+            },
+            "rotation": -319.35076904296875,
+            "passengerTypes": [
+              1
+            ],
+            "passengerTypesCounts": [
+              16
+            ],
+            "hasLock": false,
+            "lockId": 0,
+            "idDataId": 0,
+            "splineDirectionData": 0,
+            "splineProgressData": 0.7196701765060425,
+            "passengerStopPosition": {
+              "x": 0.38462817668914795,
+              "y": -1.547066569328308,
+              "z": -0.08681328594684601
+            },
+            "stopCounterValue": 0,
+            "isVIPStop": false,
+            "vipStopPassengerTypes": [],
+            "vipStopPassengerTypesCounts": []
+          }
+        },
+        {
+          "type": "Stop",
+          "typeId": 4,
+          "data": {
+            "position": {
+              "x": -0.46167340874671936,
+              "y": -0.8123888969421387
+            },
+            "rotation": -33.797637939453125,
+            "passengerTypes": [
+              6
+            ],
+            "passengerTypesCounts": [
+              16
+            ],
+            "hasLock": false,
+            "lockId": 1,
+            "idDataId": 1,
+            "splineDirectionData": 1,
+            "splineProgressData": 0.3866666853427887,
+            "passengerStopPosition": {
+              "x": -0.723189651966095,
+              "y": -0.8272082805633545,
+              "z": -0.08681716024875641
+            },
+            "stopCounterValue": 0,
+            "isVIPStop": false,
+            "vipStopPassengerTypes": [],
+            "vipStopPassengerTypesCounts": []
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 0,
+            "row": 0,
+            "passengerType": 6,
+            "passengerTypes": [],
+            "passengerTypesCounts": [],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        },
+        {
+          "type": "Bus",
+          "typeId": 3,
+          "data": {
+            "column": 1,
+            "row": 0,
+            "passengerType": 1,
+            "passengerTypes": [],
+            "passengerTypesCounts": [],
+            "isVisible": true,
+            "hasLink": false,
+            "linkId": 0,
+            "hasKey": false,
+            "keyId": 0,
+            "hasAccordion": false,
+            "accordionId": 0,
+            "hasMystery": false,
+            "isBlocker": false,
+            "blockerPassengerTypes": [],
+            "blockerPassengerTypesCounts": [],
+            "hasIce": false,
+            "iceCount": 0,
+            "bombCounter": 0
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1434 @@
+Installed 72 packages in 40.06s
+
+
++-----------------------------------------------------------------------------+
+|                                                                             |
+|                                                                             |
+|                        \u2584\u2580\u2580 \u2584\u2580\u2588 \u2588\u2580\u2580 \u2580\u2588\u2580 \u2588\u2580\u2584\u2580\u2588 \u2588\u2580\u2580 \u2588\u2580\u2588                        |
+|                        \u2588\u2580  \u2588\u2580\u2588 \u2584\u2584\u2588  \u2588  \u2588 \u2580 \u2588 \u2588\u2584\u2584 \u2588\u2580\u2580                        |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                               FastMCP 3.4.11                                |
+|                            https://gofastmcp.com                            |
+|                                                                             |
+|                \U0001f5a5  Server:      mcp-for-unity-server, 3.4.11                 |
+|                \U0001f680 Deploy free: https://horizon.prefect.io                   |
+|                                                                             |
++-----------------------------------------------------------------------------+
++-----------------------------------------------------------------------------+
+|                         \U0001f389 Update available: 4.1.4                          |
+|                     Run: pip install --upgrade fastmcp                      |
++-----------------------------------------------------------------------------+
+
+
+[11/01/26 13:39:04] INFO     Starting MCP server               transport.py:361
+                             'mcp-for-unity-server' with                       
+                             transport 'http' on                               
+                             http://127.0.0.1:8080/mcp                         
+INFO:     Started server process [12216]
+INFO:     Waiting for application startup.
+2026-11-01 13:39:05,591 - mcp.server.streamable_http_manager - INFO - StreamableHTTP session manager started
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54798 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 13:39:06,015 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 13:39:06,583 - transport.plugin_hub - INFO - Registered 35 tools for session 2fdedef4-83d0-4bc3-ab2f-e03abfc71485
+2026-11-01 13:39:06,584 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 15:05:09,556 - transport.plugin_hub - INFO - Plugin session 2fdedef4-83d0-4bc3-ab2f-e03abfc71485 disconnected (1005)
+INFO:     127.0.0.1:62283 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 15:05:17,865 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 15:05:18,507 - transport.plugin_hub - INFO - Registered 35 tools for session cd906121-ee53-43d8-a135-8d00e8874796
+2026-11-01 15:05:18,533 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 15:49:56,400 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: f0edec61bf9b4f389cf41828b4db3023
+INFO:     127.0.0.1:50886 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:49:57,255 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: f5baef7ab65d49b0ba26d00ff6cad87e
+INFO:     127.0.0.1:50891 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 15:49:57,277 - mcp.server.streamable_http - INFO - Terminating session: f5baef7ab65d49b0ba26d00ff6cad87e
+INFO:     127.0.0.1:50891 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50886 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:50891 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50886 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50891 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50893 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50891 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50891 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50891 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50891 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 15:49:57,637 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 900a13fa95084f78a52acb8afa5f0fae
+INFO:     127.0.0.1:50891 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50891 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:50891 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50895 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:50:00,608 - mcp.server.streamable_http - INFO - Terminating session: 900a13fa95084f78a52acb8afa5f0fae
+INFO:     127.0.0.1:50895 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 15:50:00,664 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: e0836443e2ca43c88f5addcfbfaddd11
+INFO:     127.0.0.1:50903 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 15:50:00,666 - mcp.server.streamable_http - INFO - Terminating session: e0836443e2ca43c88f5addcfbfaddd11
+INFO:     127.0.0.1:50903 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50903 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50903 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50903 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50903 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50903 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50903 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 15:50:00,687 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: afd700c1033a4ba38182e7b137d58b54
+INFO:     127.0.0.1:50903 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50903 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:50903 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50905 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:50:00,922 - mcp.server.streamable_http - INFO - Terminating session: afd700c1033a4ba38182e7b137d58b54
+INFO:     127.0.0.1:50905 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 15:52:22,769 - mcp.server.streamable_http - INFO - Terminating session: f0edec61bf9b4f389cf41828b4db3023
+INFO:     127.0.0.1:50530 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 15:54:30,032 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 9dcb3a9e198c46e69d4811cb4f447ee4
+INFO:     127.0.0.1:61599 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:61599 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61600 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:54:30,107 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 216e7f7546db41e89b16f770b555da21
+INFO:     127.0.0.1:61603 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 15:54:30,126 - mcp.server.streamable_http - INFO - Terminating session: 216e7f7546db41e89b16f770b555da21
+INFO:     127.0.0.1:61603 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61603 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61603 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61603 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61603 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61603 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61603 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 15:54:30,148 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 0fb514934b58447aa481b50502176d0d
+INFO:     127.0.0.1:61603 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61606 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:61606 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61607 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:54:34,712 - mcp.server.streamable_http - INFO - Terminating session: 0fb514934b58447aa481b50502176d0d
+INFO:     127.0.0.1:61607 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 15:54:34,758 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: d0252cb8cfc44528a950a4fe6fbf6c80
+INFO:     127.0.0.1:61618 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 15:54:34,760 - mcp.server.streamable_http - INFO - Terminating session: d0252cb8cfc44528a950a4fe6fbf6c80
+INFO:     127.0.0.1:61618 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61618 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61618 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61618 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61618 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61618 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61618 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 15:54:34,773 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 724e943de00045219301a0799906bf41
+INFO:     127.0.0.1:61618 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61619 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:61619 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61620 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:54:34,957 - mcp.server.streamable_http - INFO - Terminating session: 724e943de00045219301a0799906bf41
+INFO:     127.0.0.1:61620 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 15:55:08,486 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 6a21cf0aa2734583ba9c7f2ae1ebc72a
+INFO:     127.0.0.1:64906 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 15:55:08,489 - mcp.server.streamable_http - INFO - Terminating session: 6a21cf0aa2734583ba9c7f2ae1ebc72a
+INFO:     127.0.0.1:64906 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64906 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64906 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64906 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64906 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64906 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64906 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 15:55:08,505 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 21a4c4ee3829450daf19b9a67bb92ed0
+INFO:     127.0.0.1:64906 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64906 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:64906 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64908 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:55:09,519 - mcp.server.streamable_http - INFO - Terminating session: 21a4c4ee3829450daf19b9a67bb92ed0
+INFO:     127.0.0.1:64908 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 15:55:47,067 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: bc7856bdcae0449c80778c1fd19d5f45
+INFO:     127.0.0.1:65369 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 15:55:47,069 - mcp.server.streamable_http - INFO - Terminating session: bc7856bdcae0449c80778c1fd19d5f45
+INFO:     127.0.0.1:65369 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65369 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65369 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65369 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65369 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65369 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65370 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 15:55:47,088 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 28345cc38b8f4fcda89be5246dfe6000
+INFO:     127.0.0.1:65370 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65369 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:65369 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65372 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:55:47,718 - mcp.server.streamable_http - INFO - Terminating session: 28345cc38b8f4fcda89be5246dfe6000
+INFO:     127.0.0.1:65372 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 15:56:32,339 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: fb3a325221c24b3a9b6d9f84c569703d
+INFO:     127.0.0.1:65476 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 15:56:32,340 - mcp.server.streamable_http - INFO - Terminating session: fb3a325221c24b3a9b6d9f84c569703d
+INFO:     127.0.0.1:65476 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65476 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65476 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65476 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65476 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65476 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65476 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 15:56:32,356 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: a114b96d9aeb43c4be4dcf6d07a85d3f
+INFO:     127.0.0.1:65476 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65476 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:65476 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65477 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:56:32,577 - mcp.server.streamable_http - INFO - Terminating session: a114b96d9aeb43c4be4dcf6d07a85d3f
+INFO:     127.0.0.1:65477 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 15:56:56,820 - mcp.server.streamable_http - INFO - Terminating session: 9dcb3a9e198c46e69d4811cb4f447ee4
+INFO:     127.0.0.1:65528 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 15:56:56,945 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 3111c60161e84417a3aa4c54858de3c0
+INFO:     127.0.0.1:65529 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65529 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:65529 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65530 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:56:57,060 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: f60fa60cdf744632b0b16ae2b5cde70f
+INFO:     127.0.0.1:65532 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 15:56:57,062 - mcp.server.streamable_http - INFO - Terminating session: f60fa60cdf744632b0b16ae2b5cde70f
+INFO:     127.0.0.1:65532 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65532 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65532 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65532 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65532 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65532 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65532 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 15:56:57,084 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 1d33ef1ff7ec48ffa4d4eeb738d3066b
+INFO:     127.0.0.1:65532 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65532 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:65532 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49152 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:56:57,483 - mcp.server.streamable_http - INFO - Terminating session: 1d33ef1ff7ec48ffa4d4eeb738d3066b
+INFO:     127.0.0.1:49152 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 15:56:57,524 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: b0cef3f4706046e5a8ec41728e2eaafb
+INFO:     127.0.0.1:49155 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 15:56:57,525 - mcp.server.streamable_http - INFO - Terminating session: b0cef3f4706046e5a8ec41728e2eaafb
+INFO:     127.0.0.1:49155 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49155 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49155 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49155 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49155 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49155 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49155 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 15:56:57,538 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: f14c7632444d408d9488996d53842252
+INFO:     127.0.0.1:49155 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49155 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:49155 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49157 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:56:57,778 - mcp.server.streamable_http - INFO - Terminating session: f14c7632444d408d9488996d53842252
+INFO:     127.0.0.1:49157 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 15:56:58,042 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: e35a20e89f314cee91703306001eec57
+INFO:     127.0.0.1:49160 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 15:56:58,043 - mcp.server.streamable_http - INFO - Terminating session: e35a20e89f314cee91703306001eec57
+INFO:     127.0.0.1:49160 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49160 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49160 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49160 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49160 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49160 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49160 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 15:56:58,054 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 53e4afb3e3184da293349e092a45af74
+INFO:     127.0.0.1:49160 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49162 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:49162 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49163 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:56:58,292 - mcp.server.streamable_http - INFO - Terminating session: 53e4afb3e3184da293349e092a45af74
+INFO:     127.0.0.1:49163 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 15:56:58,323 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 50c2b960f6fb40f6a9be9f624cf2da18
+INFO:     127.0.0.1:49165 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 15:56:58,325 - mcp.server.streamable_http - INFO - Terminating session: 50c2b960f6fb40f6a9be9f624cf2da18
+INFO:     127.0.0.1:49165 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49165 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49165 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49165 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49165 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49165 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49165 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 15:56:58,340 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: a38be4f45b6b463e9365c428465636d5
+INFO:     127.0.0.1:49165 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49168 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:49168 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49169 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:56:58,748 - mcp.server.streamable_http - INFO - Terminating session: a38be4f45b6b463e9365c428465636d5
+INFO:     127.0.0.1:49169 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49225 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 15:57:15,627 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 0d51f724d5804043a879f6106dab9141
+INFO:     127.0.0.1:49226 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 15:57:15,629 - mcp.server.streamable_http - INFO - Terminating session: 0d51f724d5804043a879f6106dab9141
+INFO:     127.0.0.1:49226 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49226 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49226 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49226 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49226 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49226 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49226 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65097 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65097 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 15:57:36] DEBUG    Sending INFO to client: Listing    context.py:1446
+                             Unity instances                                   
+INFO:     127.0.0.1:49393 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49393 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49393 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:17:15,277 - transport.plugin_hub - INFO - Plugin session cd906121-ee53-43d8-a135-8d00e8874796 disconnected (1005)
+INFO:     127.0.0.1:58170 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:17:26,907 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:17:27,738 - transport.plugin_hub - INFO - Registered 35 tools for session 3455de52-2572-48ba-b4f4-6a0b2cf0eb1d
+2026-11-01 16:17:27,743 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:17:27,749 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 1 MCP session(s)
+2026-11-01 16:20:54,570 - transport.plugin_hub - INFO - Plugin session 3455de52-2572-48ba-b4f4-6a0b2cf0eb1d disconnected (1005)
+2026-11-01 16:21:55,529 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 7cd69ba6643949159dc3346e91cf027c
+INFO:     127.0.0.1:62094 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:21:55,653 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: e01c75d102504ab580002102bf32b13f
+INFO:     127.0.0.1:62097 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 16:21:55,669 - mcp.server.streamable_http - INFO - Terminating session: e01c75d102504ab580002102bf32b13f
+INFO:     127.0.0.1:62097 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62097 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62099 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:62097 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62099 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62097 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62097 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62100 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62097 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62097 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 16:21:55,942 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 61816a5e01264117998f2b0faa5d5067
+INFO:     127.0.0.1:62097 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62102 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:62102 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62103 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:21:56,020 - mcp.server.streamable_http - INFO - Terminating session: 61816a5e01264117998f2b0faa5d5067
+INFO:     127.0.0.1:62103 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 16:21:56,061 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: bde29df25e644ac8bc984d23a5a83e58
+INFO:     127.0.0.1:62104 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 16:21:56,063 - mcp.server.streamable_http - INFO - Terminating session: bde29df25e644ac8bc984d23a5a83e58
+INFO:     127.0.0.1:62104 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62104 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62104 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62104 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62104 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62104 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62104 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 16:21:56,075 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 60552f49847142e4bbfc77eb16b998a7
+INFO:     127.0.0.1:62104 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62106 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:62106 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62107 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:21:56,270 - mcp.server.streamable_http - INFO - Terminating session: 60552f49847142e4bbfc77eb16b998a7
+INFO:     127.0.0.1:62107 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 16:21:56,618 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: ec7ecc7534ef4132bdc187c791019518
+INFO:     127.0.0.1:62108 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 16:21:56,620 - mcp.server.streamable_http - INFO - Terminating session: ec7ecc7534ef4132bdc187c791019518
+INFO:     127.0.0.1:62108 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62108 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62108 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62108 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62108 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62108 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62108 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 16:21:56,637 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: ed237b19e1734c5d8ee4b466ed12b711
+INFO:     127.0.0.1:62108 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62111 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:62111 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62112 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:21:56,830 - mcp.server.streamable_http - INFO - Terminating session: ed237b19e1734c5d8ee4b466ed12b711
+INFO:     127.0.0.1:62112 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 16:23:54,133 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 0bba932bc17e41df99f785a6d0ab9dba
+INFO:     127.0.0.1:52555 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52557 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:52557 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52558 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:23:54,406 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: c4826350a0124139b07c4431db7e8f37
+INFO:     127.0.0.1:52562 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 16:23:54,407 - mcp.server.streamable_http - INFO - Terminating session: c4826350a0124139b07c4431db7e8f37
+INFO:     127.0.0.1:52562 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52562 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52562 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52562 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52562 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52562 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52562 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 16:23:54,419 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 35c1a815549c49629e0be8fe6cd449a2
+INFO:     127.0.0.1:52562 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52564 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:52564 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52565 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:23:54,701 - mcp.server.streamable_http - INFO - Terminating session: 35c1a815549c49629e0be8fe6cd449a2
+INFO:     127.0.0.1:52565 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 16:23:54,945 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 0450a54ad17745b98e24fa408168802b
+INFO:     127.0.0.1:52568 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 16:23:54,947 - mcp.server.streamable_http - INFO - Terminating session: 0450a54ad17745b98e24fa408168802b
+INFO:     127.0.0.1:52568 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52568 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52568 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52568 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52568 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52568 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52568 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 16:23:54,960 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 64cf538d0e3b4b32aaaed2b27d4d88ac
+INFO:     127.0.0.1:52568 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52570 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:52570 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52571 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:23:55,300 - mcp.server.streamable_http - INFO - Terminating session: 64cf538d0e3b4b32aaaed2b27d4d88ac
+INFO:     127.0.0.1:52571 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 16:23:55,759 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 824f0a45bfdb46e6b92a86b499764366
+INFO:     127.0.0.1:52575 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 16:23:55,761 - mcp.server.streamable_http - INFO - Terminating session: 824f0a45bfdb46e6b92a86b499764366
+INFO:     127.0.0.1:52575 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52575 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52575 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52575 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52575 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52575 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52575 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 16:23:55,773 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 552a3d887d55429d85625ef3256f3d6e
+INFO:     127.0.0.1:52575 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52577 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:52577 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52579 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:23:55,989 - mcp.server.streamable_http - INFO - Terminating session: 552a3d887d55429d85625ef3256f3d6e
+INFO:     127.0.0.1:52579 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 16:25:03,345 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 96a918fa565c4973a1f6568b37296a0c
+INFO:     127.0.0.1:61522 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 16:25:03,347 - mcp.server.streamable_http - INFO - Terminating session: 96a918fa565c4973a1f6568b37296a0c
+INFO:     127.0.0.1:61522 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61522 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61522 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61522 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61522 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61522 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61522 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 16:25:03,370 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 02710368f9174f6a9146063c41eb45aa
+INFO:     127.0.0.1:61522 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61522 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:61522 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61523 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:25:03,788 - mcp.server.streamable_http - INFO - Terminating session: 02710368f9174f6a9146063c41eb45aa
+INFO:     127.0.0.1:61523 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 16:25:03,825 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 105198cfe4714f8d87f390a7e3e608e9
+INFO:     127.0.0.1:61526 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 16:25:03,826 - mcp.server.streamable_http - INFO - Terminating session: 105198cfe4714f8d87f390a7e3e608e9
+INFO:     127.0.0.1:61526 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61526 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61526 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61526 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61526 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61526 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61526 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 16:25:03,852 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 28dc28b0ac984c1d9ffc706099f87656
+INFO:     127.0.0.1:61526 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61528 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:61528 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /mcp HTTP/1.1" 200 OK
+2026-11-01 16:25:04,036 - mcp.server.streamable_http - INFO - Terminating session: 28dc28b0ac984c1d9ffc706099f87656
+INFO:     127.0.0.1:61528 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61531 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:25:08,076 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: e8f1d71c0eef4fe09f75f268bce2374b
+INFO:     127.0.0.1:61532 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 16:25:08,080 - mcp.server.streamable_http - INFO - Terminating session: e8f1d71c0eef4fe09f75f268bce2374b
+INFO:     127.0.0.1:61532 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61532 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61532 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61532 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61532 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61532 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61532 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 16:25:14,622 - mcp.server.streamable_http - INFO - Terminating session: 0bba932bc17e41df99f785a6d0ab9dba
+INFO:     127.0.0.1:61534 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61536 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61537 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:25:14] DEBUG    Sending INFO to client: Listing    context.py:1446
+                             Unity instances                                   
+INFO:     127.0.0.1:61568 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:25:55] DEBUG    Sending INFO to client: Listing    context.py:1446
+                             Unity instances                                   
+INFO:     127.0.0.1:61598 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:26:12,964 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:26:13,442 - transport.plugin_hub - INFO - Registered 35 tools for session 37665f57-8992-4f4b-8aa6-caf517a55c98
+2026-11-01 16:26:13,443 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:26:13,444 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:64203 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:26:17] DEBUG    Sending INFO to client: Listing    context.py:1446
+                             Unity instances                                   
+INFO:     127.0.0.1:49781 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58184 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58184 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58184 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57912 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:26:59] DEBUG    Sending INFO to client: Processing context.py:1446
+                             create_script:                                    
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+2026-11-01 16:27:10,885 - transport.plugin_hub - INFO - Plugin session 37665f57-8992-4f4b-8aa6-caf517a55c98 disconnected (1005)
+2026-11-01 16:27:31,099 - transport.plugin_hub - WARNING - No Unity plugin reconnected within 20.00s (instance=Bus@15caa34a4c7a209e)
+INFO:     127.0.0.1:63614 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:27:37,753 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:27:38,882 - transport.plugin_hub - INFO - Registered 35 tools for session a250b4af-996c-4833-8ae4-3ae68dce2d6f
+2026-11-01 16:27:38,882 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:27:38,884 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:51136 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:27:57] DEBUG    Sending INFO to client: Processing context.py:1446
+                             create_script:                                    
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UILayoutVision.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+2026-11-01 16:28:02,255 - transport.plugin_hub - INFO - Plugin session a250b4af-996c-4833-8ae4-3ae68dce2d6f disconnected (1005)
+INFO:     127.0.0.1:52166 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:28:09,328 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:28:10,365 - transport.plugin_hub - INFO - Registered 35 tools for session fcb32858-bb9d-4879-a2ec-607fe772a102
+2026-11-01 16:28:10,366 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:28:10,366 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:52184 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:28:45] DEBUG    Sending INFO to client: Processing context.py:1446
+                             create_script:                                    
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+2026-11-01 16:28:50,741 - transport.plugin_hub - WARNING - [Ping] Failed to send ping to session fcb32858-bb9d-4879-a2ec-607fe772a102: . Connection likely dead.
+2026-11-01 16:28:50,742 - transport.plugin_hub - INFO - Plugin session fcb32858-bb9d-4879-a2ec-607fe772a102 disconnected (1005)
+INFO:     127.0.0.1:59723 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:28:55,419 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:28:56,258 - transport.plugin_hub - INFO - Registered 35 tools for session 8b85116c-71c6-4612-927b-af0930965db7
+2026-11-01 16:28:56,258 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:28:56,259 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:52184 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:28:58,672 - transport.plugin_hub - INFO - Plugin session 8b85116c-71c6-4612-927b-af0930965db7 disconnected (1005)
+2026-11-01 16:28:58,675 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:49589 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:29:02,963 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:29:03,821 - transport.plugin_hub - INFO - Registered 35 tools for session f1a3bb34-c22b-45bf-9b92-2e723accd69e
+2026-11-01 16:29:03,821 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:29:03,823 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:59660 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49699 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64474 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64481 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64482 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64167 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:29:42] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:64167 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61244 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:29:50] DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61245 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:29:51] DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61245 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:29:54,412 - transport.plugin_hub - INFO - Plugin session f1a3bb34-c22b-45bf-9b92-2e723accd69e disconnected (1005)
+2026-11-01 16:29:54,413 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:61262 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:29:58,150 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:29:59,040 - transport.plugin_hub - INFO - Registered 35 tools for session 6dd564ef-6be4-4d04-95af-e71a32d3535f
+2026-11-01 16:29:59,040 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:29:59,043 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:61278 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:30:04] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61278 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:30:05] DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61281 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:30:06] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61281 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61281 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54689 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54689 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:30:15] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:54689 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:30:16] DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:54689 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:30:20,316 - transport.plugin_hub - INFO - Plugin session 6dd564ef-6be4-4d04-95af-e71a32d3535f disconnected (1005)
+2026-11-01 16:30:20,316 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:54706 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:30:25,474 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:30:26,276 - transport.plugin_hub - INFO - Registered 35 tools for session ea666145-4dae-44e3-828a-c8bcf644062b
+2026-11-01 16:30:26,276 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:30:26,277 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:54708 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54685 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:30:41,815 - transport.plugin_hub - INFO - Plugin session ea666145-4dae-44e3-828a-c8bcf644062b disconnected (1005)
+INFO:     127.0.0.1:54710 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:30:45,428 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:30:46,261 - transport.plugin_hub - INFO - Registered 35 tools for session 6be93927-e1aa-4719-9add-ec28ad5afaea
+2026-11-01 16:30:46,261 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:30:46,262 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:54726 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:30:51] DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:54726 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:30:53,838 - transport.plugin_hub - INFO - Plugin session 6be93927-e1aa-4719-9add-ec28ad5afaea disconnected (1005)
+2026-11-01 16:30:53,838 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:54731 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:30:57,732 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:30:58,534 - transport.plugin_hub - INFO - Registered 35 tools for session 3acb9b7d-0df6-409b-a5cd-afa9ed10875f
+2026-11-01 16:30:58,534 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:30:58,534 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:54734 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56276 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:31:02] DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56276 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:31:07,145 - transport.plugin_hub - INFO - Plugin session 3acb9b7d-0df6-409b-a5cd-afa9ed10875f disconnected (1005)
+2026-11-01 16:31:07,145 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:56283 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:31:13,010 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:31:13,992 - transport.plugin_hub - INFO - Registered 35 tools for session 0106d3e2-7724-40b1-8c59-5e28c8235a6a
+2026-11-01 16:31:13,993 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:31:13,994 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:56285 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65107 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:31:29,561 - transport.plugin_hub - INFO - Plugin session 0106d3e2-7724-40b1-8c59-5e28c8235a6a disconnected (1005)
+INFO:     127.0.0.1:63650 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:31:35,249 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:31:36,332 - transport.plugin_hub - INFO - Registered 35 tools for session ce6150e5-4fa2-49a2-94b6-32a380b418c8
+2026-11-01 16:31:36,333 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:31:36,333 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:65178 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65179 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49323 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49323 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49337 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49343 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49345 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:32:05] DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:49353 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49353 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51835 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51836 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51843 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51855 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51859 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64226 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59901 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54620 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54626 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54631 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60827 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:33:30] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60827 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60827 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60832 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:33:31] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60832 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:33:32] DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60832 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60832 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:33:35,764 - transport.plugin_hub - INFO - Plugin session ce6150e5-4fa2-49a2-94b6-32a380b418c8 disconnected (1005)
+2026-11-01 16:33:35,765 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:60857 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:33:42,810 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:33:43,688 - transport.plugin_hub - INFO - Registered 35 tools for session 0abcb839-9bf6-4a5e-9300-22be31b73e65
+2026-11-01 16:33:43,688 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:33:43,689 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:60860 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60860 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60860 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60881 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60889 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61200 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:34:14] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61200 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61200 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61200 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 16:34:16] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61200 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61200 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:61205 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:34:20,209 - transport.plugin_hub - INFO - Plugin session 0abcb839-9bf6-4a5e-9300-22be31b73e65 disconnected (1005)
+2026-11-01 16:34:20,209 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:51348 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:34:25,303 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 16:34:26,120 - transport.plugin_hub - INFO - Registered 35 tools for session 8b487b75-cbde-40ad-91df-f9df0adc9538
+2026-11-01 16:34:26,122 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:34:26,122 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:51361 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51361 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51361 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:34:33,053 - transport.plugin_hub - INFO - Plugin session 8b487b75-cbde-40ad-91df-f9df0adc9538 disconnected (1005)
+INFO:     127.0.0.1:51370 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 16:34:37,345 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+INFO:     127.0.0.1:51361 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 16:34:38,213 - transport.plugin_hub - INFO - Registered 35 tools for session 8ff106c1-8c22-437c-91d4-a74faf88ac0e
+2026-11-01 16:34:38,213 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 16:34:38,213 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:51373 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51390 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64322 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58579 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:20:27] DEBUG    Sending INFO to client: Listing    context.py:1446
+                             Unity instances                                   
+INFO:     127.0.0.1:56921 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60569 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60788 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59327 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:23:22] DEBUG    Sending INFO to client: Processing context.py:1446
+                             create_script:                                    
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:59369 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:23:52] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:59369 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:59369 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:23:53] DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:59374 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:23:54] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:59374 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:59377 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:59377 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:24:02,612 - transport.plugin_hub - INFO - Plugin session 8ff106c1-8c22-437c-91d4-a74faf88ac0e disconnected (1005)
+2026-11-01 17:24:02,613 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:56221 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:24:10,549 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:24:11,679 - transport.plugin_hub - INFO - Registered 35 tools for session 78e30e81-8d7b-465b-93cd-6940ae9416f5
+2026-11-01 17:24:11,680 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:24:11,681 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:59377 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56266 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:24:29] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56268 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56268 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56273 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:24:35,924 - transport.plugin_hub - INFO - Plugin session 78e30e81-8d7b-465b-93cd-6940ae9416f5 disconnected (1005)
+2026-11-01 17:24:35,924 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:56297 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:24:41,572 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:24:42,425 - transport.plugin_hub - INFO - Registered 35 tools for session 0679ba09-f558-46c0-8d05-c22f5f64753a
+2026-11-01 17:24:42,425 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:24:42,425 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:56273 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56321 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:25:00] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56322 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56322 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56322 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:25:06,564 - transport.plugin_hub - INFO - Plugin session 0679ba09-f558-46c0-8d05-c22f5f64753a disconnected (1005)
+2026-11-01 17:25:06,565 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:56339 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:25:12,117 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:25:13,004 - transport.plugin_hub - INFO - Registered 35 tools for session ddd1083e-5240-460f-b80a-4b954bb6964c
+2026-11-01 17:25:13,004 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:25:13,005 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:56354 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61370 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:25:29,257 - transport.plugin_hub - INFO - Plugin session ddd1083e-5240-460f-b80a-4b954bb6964c disconnected (1005)
+INFO:     127.0.0.1:51105 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:25:34,595 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:25:35,622 - transport.plugin_hub - INFO - Registered 35 tools for session b13bc079-f82e-47c6-8f5f-d0477e83d257
+2026-11-01 17:25:35,622 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:25:35,623 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:51118 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57674 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:26:33] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:57674 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:57674 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:57679 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:26:35] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:57679 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:26:36] DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:57679 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:55533 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:26:58] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:55533 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:26:59] DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:55535 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:55535 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55550 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55577 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:27:26] DEBUG    Sending INFO to client: Processing context.py:1446
+                             create_script:                                    
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflineGlyphMask.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:55593 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:27:37] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:55593 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:55593 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:55599 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:27:43,946 - transport.plugin_hub - INFO - Plugin session b13bc079-f82e-47c6-8f5f-d0477e83d257 disconnected (1005)
+2026-11-01 17:27:43,946 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:55630 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:27:50,136 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:27:51,112 - transport.plugin_hub - INFO - Registered 35 tools for session 5126ff59-0f84-4072-944d-e481ec9268bb
+2026-11-01 17:27:51,112 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:27:51,113 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:55636 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56908 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:28:08,545 - transport.plugin_hub - INFO - Plugin session 5126ff59-0f84-4072-944d-e481ec9268bb disconnected (1005)
+INFO:     127.0.0.1:65377 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:28:13,540 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:28:14,722 - transport.plugin_hub - INFO - Registered 35 tools for session 97d84b30-f1e3-4203-bbdb-cac151d7c540
+2026-11-01 17:28:14,723 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:28:14,723 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:56371 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56405 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:29:00] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56408 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56408 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56413 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:29:02] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56413 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56414 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:56417 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:29:08,335 - transport.plugin_hub - INFO - Plugin session 97d84b30-f1e3-4203-bbdb-cac151d7c540 disconnected (1005)
+2026-11-01 17:29:08,335 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:56442 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:29:13,705 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:29:14,736 - transport.plugin_hub - INFO - Registered 35 tools for session bdcc33d3-455f-4b5b-84f0-c426cbfa90ee
+2026-11-01 17:29:14,736 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:29:14,737 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:56417 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56457 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:29:25,420 - transport.plugin_hub - INFO - Plugin session bdcc33d3-455f-4b5b-84f0-c426cbfa90ee disconnected (1005)
+INFO:     127.0.0.1:56477 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:29:29,326 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:29:30,318 - transport.plugin_hub - INFO - Registered 35 tools for session eb3e8bc0-1d98-4ca1-9279-00617b3738f3
+2026-11-01 17:29:30,318 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:29:30,319 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:56483 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:29:33] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: delete                             
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+2026-11-01 17:29:40,049 - transport.plugin_hub - INFO - Plugin session eb3e8bc0-1d98-4ca1-9279-00617b3738f3 disconnected (1005)
+INFO:     127.0.0.1:56508 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:29:45,592 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:29:46,437 - transport.plugin_hub - INFO - Registered 35 tools for session 3ff49ce4-18d9-46c5-bc61-47d5b8cea2b7
+2026-11-01 17:29:46,438 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:29:46,438 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:56543 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56545 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56561 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53645 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:30:28] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:53645 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:53645 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:53645 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:30:34,679 - transport.plugin_hub - INFO - Plugin session 3ff49ce4-18d9-46c5-bc61-47d5b8cea2b7 disconnected (1005)
+2026-11-01 17:30:34,679 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:61845 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:30:40,223 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:30:41,179 - transport.plugin_hub - INFO - Registered 35 tools for session 7e2cca4c-414e-4c99-b8a7-f4a847574795
+2026-11-01 17:30:41,181 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:30:41,181 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:53645 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:30:51,796 - transport.plugin_hub - INFO - Plugin session 7e2cca4c-414e-4c99-b8a7-f4a847574795 disconnected (1005)
+INFO:     127.0.0.1:61177 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:30:56,059 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:30:57,048 - transport.plugin_hub - INFO - Registered 35 tools for session 8ab66007-54d9-425b-81df-5434ee9c766f
+2026-11-01 17:30:57,048 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:30:57,049 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:53215 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:31:15] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:53217 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:53217 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:53217 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:31:21,333 - transport.plugin_hub - INFO - Plugin session 8ab66007-54d9-425b-81df-5434ee9c766f disconnected (1005)
+2026-11-01 17:31:21,335 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:53246 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:31:26,909 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:31:27,801 - transport.plugin_hub - INFO - Registered 35 tools for session d18c9101-75c9-4bab-b867-65c375613dad
+2026-11-01 17:31:27,801 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:31:27,802 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:53261 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53261 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:31:37,852 - transport.plugin_hub - INFO - Plugin session d18c9101-75c9-4bab-b867-65c375613dad disconnected (1005)
+INFO:     127.0.0.1:53279 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:31:42,167 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:31:43,321 - transport.plugin_hub - INFO - Registered 35 tools for session 62b18d9f-dc02-405a-b62b-dc0403157733
+2026-11-01 17:31:43,322 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:31:43,322 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:53285 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60894 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 17:32:13] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60894 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60894 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/OfflinePopupComposer.cs                    
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:55983 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:32:20,221 - transport.plugin_hub - INFO - Plugin session 62b18d9f-dc02-405a-b62b-dc0403157733 disconnected (1005)
+2026-11-01 17:32:20,222 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:60968 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:32:25,353 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:32:26,484 - transport.plugin_hub - INFO - Registered 35 tools for session 5b88d697-7168-4bac-9263-c068d3c2163b
+2026-11-01 17:32:26,484 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:32:26,485 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:60981 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 17:32:36,396 - transport.plugin_hub - INFO - Plugin session 5b88d697-7168-4bac-9263-c068d3c2163b disconnected (1005)
+INFO:     127.0.0.1:61011 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 17:32:40,727 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 17:32:41,583 - transport.plugin_hub - INFO - Registered 35 tools for session 16f58f7d-254d-40da-99e8-921d74ad59c7
+2026-11-01 17:32:41,583 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 17:32:41,583 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+INFO:     127.0.0.1:61191 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61194 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64021 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64021 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64021 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49518 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49519 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49559 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49563 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 19:32:53,199 - mcp.server.streamable_http - INFO - Terminating session: 3111c60161e84417a3aa4c54858de3c0
+INFO:     127.0.0.1:57866 - "DELETE /mcp HTTP/1.1" 200 OK
+2026-11-01 21:07:56,880 - transport.plugin_hub - INFO - Plugin session 16f58f7d-254d-40da-99e8-921d74ad59c7 disconnected (1005)
+INFO:     127.0.0.1:55198 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 23:12:39,060 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 23:12:39,274 - transport.plugin_hub - INFO - Registered 35 tools for session fbee51c3-889a-48a0-8453-53e2b97c3f52
+2026-11-01 23:12:39,298 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 23:12:39,334 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 1 MCP session(s)
+INFO:     127.0.0.1:54932 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 23:17:15] DEBUG    Sending INFO to client: Listing    context.py:1446
+                             Unity instances                                   
+INFO:     127.0.0.1:54971 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60680 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 23:19:36] DEBUG    Sending INFO to client: Processing context.py:1446
+                             create_script:                                    
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/NineRouterComposer.cs                      
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60751 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 23:20:30] DEBUG    Sending INFO to client: Processing context.py:1446
+                             create_script:                                    
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerRouter.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60756 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 23:20:33] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60756 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60757 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerCore.cs                          
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60759 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60759 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 23:20:34] DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60759 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:60762 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 23:20:38,182 - transport.plugin_hub - INFO - Plugin session fbee51c3-889a-48a0-8453-53e2b97c3f52 disconnected (1005)
+2026-11-01 23:20:38,182 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:60794 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 23:20:48,171 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 23:20:48,890 - transport.plugin_hub - INFO - Registered 35 tools for session 3e02b835-a72b-4dcf-aeaa-853269611e18
+2026-11-01 23:20:48,891 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 23:20:48,892 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 1 MCP session(s)
+INFO:     127.0.0.1:60762 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52274 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 23:21:47,619 - transport.plugin_hub - INFO - Plugin session 3e02b835-a72b-4dcf-aeaa-853269611e18 disconnected (1005)
+INFO:     127.0.0.1:52319 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 23:21:51,341 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 23:21:52,024 - transport.plugin_hub - INFO - Registered 35 tools for session 8092fec2-ad48-4de1-a1f8-20a55f3b19a8
+2026-11-01 23:21:52,024 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 23:21:52,027 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 1 MCP session(s)
+INFO:     127.0.0.1:52343 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52389 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52393 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52393 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 23:36:28,148 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 9da70f57db4b456f8cbefa43872c951d
+INFO:     127.0.0.1:59498 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59498 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59499 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:59499 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59499 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59499 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 23:50:42,696 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: ec42ac15e53c43edba2aa9dcbb4d5c21
+INFO:     127.0.0.1:62067 - "POST /mcp HTTP/1.1" 400 Bad Request
+2026-11-01 23:50:42,851 - mcp.server.streamable_http - INFO - Terminating session: ec42ac15e53c43edba2aa9dcbb4d5c21
+2026-11-01 23:50:42,872 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 3368b678ce394a1a9b42fb9d4f655b08
+INFO:     127.0.0.1:62067 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62067 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50670 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:50670 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50670 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50670 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 23:51:48,717 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: aab93cefac474e329e611d85b2909bdc
+INFO:     127.0.0.1:53356 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 23:51:48,719 - mcp.server.streamable_http - INFO - Terminating session: aab93cefac474e329e611d85b2909bdc
+INFO:     127.0.0.1:53356 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53356 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53356 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53356 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53356 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53356 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53356 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 23:51:54,487 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: b53988751e174771ab19b469c87c062b
+INFO:     127.0.0.1:51287 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+2026-11-01 23:51:54,488 - mcp.server.streamable_http - INFO - Terminating session: b53988751e174771ab19b469c87c062b
+INFO:     127.0.0.1:51287 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51287 - "GET /mcp/.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51287 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51287 - "GET /.well-known/oauth-authorization-server/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51287 - "GET /.well-known/openid-configuration/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51287 - "GET /mcp/.well-known/openid-configuration HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51287 - "GET /.well-known/oauth-authorization-server HTTP/1.1" 404 Not Found
+2026-11-01 23:51:54,554 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 520232c383ee4691937fffe6470b23be
+INFO:     127.0.0.1:51287 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51287 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51287 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51289 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 23:51:59,883 - mcp.server.streamable_http - INFO - Terminating session: 520232c383ee4691937fffe6470b23be
+INFO:     127.0.0.1:51296 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53763 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 23:52:33] DEBUG    Sending INFO to client: Listing    context.py:1446
+                             Unity instances                                   
+INFO:     127.0.0.1:53770 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53770 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53771 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49338 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49357 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52226 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51765 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 23:55:13] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:51765 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/NineRouterComposer.cs                      
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:51768 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/NineRouterComposer.cs                      
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:51772 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 23:55:14] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:51772 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 23:55:15] DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:51774 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerWindow.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:51778 - "POST /mcp HTTP/1.1" 200 OK
+[11/01/26 23:55:16] DEBUG    Sending INFO to client: Processing context.py:1446
+                             manage_script: read                               
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:51780 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             get_sha:                                          
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerRouter.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:51781 - "POST /mcp HTTP/1.1" 200 OK
+                    DEBUG    Sending INFO to client: Processing context.py:1446
+                             apply_text_edits:                                 
+                             Assets/Tools/ScreenshotUIComposer/                
+                             Editor/UIComposerRouter.cs                        
+                             (unity_instance=Bus@15caa34a4c7a20                
+                             9e)                                               
+INFO:     127.0.0.1:51782 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 23:55:30,871 - transport.plugin_hub - INFO - Plugin session 8092fec2-ad48-4de1-a1f8-20a55f3b19a8 disconnected (1005)
+2026-11-01 23:55:30,871 - services.tools.refresh_unity - INFO - refresh_unity: Connection lost during compile (expected - domain reload triggered)
+INFO:     127.0.0.1:51819 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 23:55:38,895 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 23:55:39,776 - transport.plugin_hub - INFO - Registered 35 tools for session 580308b9-f418-4a25-a179-61a21676ed0c
+2026-11-01 23:55:39,777 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 23:55:39,778 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 3 MCP session(s)
+INFO:     127.0.0.1:51782 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64430 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64436 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53347 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-01 23:57:39,812 - transport.plugin_hub - INFO - Plugin session 580308b9-f418-4a25-a179-61a21676ed0c disconnected (1005)
+INFO:     127.0.0.1:63623 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-01 23:57:47,493 - transport.plugin_hub - INFO - Plugin registered: Bus (15caa34a4c7a209e)
+2026-11-01 23:57:48,672 - transport.plugin_hub - INFO - Registered 35 tools for session f5382fa2-72ac-479c-a2b3-bd7c5a1c8659
+2026-11-01 23:57:48,672 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, asset_gen, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[], total_transforms=19, unity_start=9
+2026-11-01 23:57:48,674 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 3 MCP session(s)
+2026-11-02 00:01:13,189 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: ac5dcbd4f321489883196358f185878d
+INFO:     127.0.0.1:53431 - "POST /mcp HTTP/1.1" 400 Bad Request
+2026-11-02 00:01:13,253 - mcp.server.streamable_http - INFO - Terminating session: ac5dcbd4f321489883196358f185878d
+2026-11-02 00:01:13,262 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: b918c7386c99438e94e1710d01cf5b6a
+INFO:     127.0.0.1:53431 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53431 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53433 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:53433 - "GET /.well-known/oauth-protected-resource/mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53433 - "GET /.well-known/oauth-protected-resource HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53433 - "POST /mcp HTTP/1.1" 200 OK
+2026-11-02 00:08:19,397 - mcp.server.streamable_http_manager - INFO - Session 9da70f57db4b456f8cbefa43872c951d idle timeout
+2026-11-02 00:08:19,413 - mcp.server.streamable_http - INFO - Terminating session: 9da70f57db4b456f8cbefa43872c951d
